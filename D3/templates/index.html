@@ -31,18 +31,7 @@
     <div id="messages">
 
     </div>
-    {%for m in messages %}
-    <div class="card">       
-        <div class="card-body">
-            {{m.Message}}
-        </div>        
-        <div class="card-title card-footer">
-            
-           # {{loop.index}}) Posted By {{m.User}} at {{m.PostTime}}
-        </div>        
-    </div>       
 
-    {%endfor %}
 
 
     <div class="card">
